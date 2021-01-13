@@ -26,7 +26,7 @@ int main() {
 			if (i == 0) {
 				// p1 will take the 1st turn
 				p1 += a[i];
-			} else if ((i == 1 || i == 2) && (n >= 2)) {
+			} else if (i == 1 || i == 2) {
 				// p2 will take the 2nd & 3rd turn
 				p2 += a[i];
 			} else if (i % 2 == 1) {
